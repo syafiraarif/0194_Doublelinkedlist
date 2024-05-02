@@ -146,7 +146,7 @@ bool listempety()
 void traverse()
 {
     if (listempety())
-        cout << "\nList is empety" << endl;
+        cout << "\nList is empty" << endl;
     else 
     {
         cout << "\nRecord is ascending order of roll number are:  " << endl;
@@ -162,7 +162,7 @@ void traverse()
 void revtraverse()
 {
     if (listempety())
-        cout << "\nList is empety" << endl;
+        cout << "\nList is empty" << endl;
     else
     {
         cout << "\nRecord is descending order of roll number are:  " << endl;
@@ -182,7 +182,7 @@ void searchData()
 {
     if (listempety() == true)
     {
-        cout << "\nList is empety" << endl;
+        cout << "\nList is empty" << endl;
     }
     Node* prev, *curr;
     prev = curr = NULL;
@@ -198,6 +198,7 @@ void searchData()
         cout << "\nName: " << curr->name << endl;
     }
 }
+
 int main()
 {
     while(true)
