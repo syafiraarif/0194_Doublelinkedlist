@@ -145,7 +145,18 @@ bool listempety()
 
 void traverse()
 {
-
+    if (listempety())
+        cout << "\nList is empety" << endl;
+    else 
+    {
+        cout << "\nRecord is ascending order of roll number are:  " << endl;
+        Node* currentNode = START;              //step 1
+        while (currentNode != NULL)             //step 2
+        {
+            cout << currentNode->noMhs << " " << currentNode->name << endl;         //step 3
+            currentNode = currentNode->next;
+        }
+    }
 }
 int main()
 {
