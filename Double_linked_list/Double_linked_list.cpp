@@ -140,6 +140,11 @@ void deleteNode()
 
 bool listempety()
 {
+    return (START == NULL);
+}
+
+void traverse()
+{
 
 }
 int main()
